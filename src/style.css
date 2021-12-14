@@ -1,14 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+
 .col{
     display:grid;
    
     grid-template-columns:repeat( 4 , 100px);
     padding: 10px;
     background-color: cornflowerblue;
-    justify-content : start;
-    grid-template-rows: repeat(auto , 100px);
-    text-align:center;
-    line-height: 100px;
    
+    grid-template-rows:minmax(60px , auto) repeat(5 , 50px);
+    text-align: center;
+    
+
     gap: 5px;
    
 
@@ -23,15 +31,36 @@
 
 .ans{
     grid-column:1/-1;
-    background-color: cornsilk;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:flex-end;
+
+
+    word-wrap: break-word;
+    word-break: break-all;
+
+    
+   
 
 
 }
 
 .span2{
-    grid-column:1/3;
+    grid-column:span 2;
 
 }
 .col > div{
     background-color: crimson;
+}
+
+.ans .upper  {
+    color:rgba(255, 255, 255, 0.75);
+    
+}
+
+.ans .lower  {
+    color:rgba(255, 255, 255, 1);
+    font-size: 20px;
+    
 }

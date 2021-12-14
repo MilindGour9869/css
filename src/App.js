@@ -12,7 +12,7 @@ return (
    <div className='ans'> 
    
    <div className="upper">upper</div>
-   <div className="lower">lower</div>
+   <div className="lower">111111111111111111111111111111111</div>
    </div>
    <div className="span2">AC</div>
    <div>DEL</div>

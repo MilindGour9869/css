@@ -16,35 +16,29 @@ function App() {
 return (
 <>
 
-<div className="div1">
-   
-   <img src="https://forbitads.files.wordpress.com/2017/06/cropped-MDN-Creations-Group-Icon.png"></img>
-  
+<header>
+  <ul>
+    <rd>home </rd>
+    <rd> about </rd>
+    <rd> search </rd>
+  </ul>
+</header>
 
-
-  
-     
-     <p className='a'> qasasax acc
-     </p>
-</div>
-
-
-<div className='container'>
-  <div className='box'>
-  A tiny VS Code extension made up of a few commands that generate and insert lorem ipsum text into a text file. To use the extension, open the command palette (F1 or cmd/ctrl+shift+p, type "lorem ipsum" and select to insert either a line or paragraph.
-
-  </div>
-  <div className='box'>
-  A tiny VS Code extension made up of a few commands that generate and insert lorem ipsum text into a text file. To use the extension, open the command palette (F1 or cmd/ctrl+shift+p, type "lorem ipsum" and select to insert either a line or paragraph.
-
-  </div>
-  <div className='box'>
-  A tiny VS Code extension made up of a few commands that generate and insert lorem ipsum text into a text file. To use the extension, open the command palette (F1 or cmd/ctrl+shift+p, type "lorem ipsum" and select to insert either a line or paragraph.
-  
-
-  </div>
-
-</div>
+<main>
+  <section>
+    <div className='container'>
+      <div className='box1'>
+        box1
+      </div>
+      <div className='box2'>
+        box2
+      </div>
+      <div className='box3'>
+        box3
+      </div>
+    </div>
+  </section>
+</main>
 </>
 );
 }

@@ -10,28 +10,18 @@
 }
 .a{
     background-color: red;
-    display:inline;
-    
-    
-
-
+    text-align: center;
 }
 
 
-.div2{
-    margin: auto;
-    width: 100px;
-   
-}
+
 
 
 img{
     height: 100px;
+    
+    margin: auto;
+    display: block;
     width: 100px;
     
-}
-
-.img{
-    width: 100px;
-    margin: auto;
 }

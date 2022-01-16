@@ -4,17 +4,26 @@
 }
 
 .box{
-    width: 100px;
-    height: 5px;
+    
+  
     border-radius: 1px;
-    background-color: crimson;
-    animation: box 2s ease-in 0s 1 normal forwards;
+    display: flex;
+    
+
+    animation: box 3s normal 0s infinite  ;
     
 }
 
+
+img{
+    height: 300px;
+    width: 100vw;
+}
+
+
 @keyframes box {
     from{
-        transform: translate(10px);
+        transform: translate(0px);
 
     }
 

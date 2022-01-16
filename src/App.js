@@ -21,9 +21,24 @@ return (
 <main>
   <section >
     <div className='container'>
-    <div className='box'>
+    <div className='box img1'>
+      <img src='https://cdn.pixabay.com/photo/2016/03/26/13/09/workspace-1280538__340.jpg'></img>
+      <img src='https://cdn.mos.cms.futurecdn.net/6t8Zh249QiFmVnkQdCCtHK.jpg'>
+
+      </img>
+
+      <img src='https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825__340.jpg'>
+
+
+      </img>
       
+
+
+      
+
     </div>
+
+   
        
 
 

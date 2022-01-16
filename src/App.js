@@ -16,50 +16,78 @@ function App() {
 return (
 <>
 
+<header>
+  <nav>
+    <div className='nav'>
+      <img src="https://www.freepnglogos.com/uploads/flipkart-logo-png/flipkart-logo-transparent-vector-3.png" alt='flipkart logo'>
 
+      </img>
+
+      <div className='hover'>
+        <a>Home</a>
+      </div>
+      <div  className='hover'>
+       <a>About</a>
+      </div>
+      <div  className='hover'>
+       <a>Contact</a>
+      </div>
+
+      <input className="input">
+
+      </input>
+
+      <button>
+        <div className='search hover'>
+           Search 
+        </div>
+      </button>
+    </div>
+
+  </nav>
+</header>
 
 <main>
-  <section >
-    <div className='container'>
-    <div className='box img1'>
-      <img src='https://cdn.pixabay.com/photo/2016/03/26/13/09/workspace-1280538__340.jpg'></img>
-      <img src='https://cdn.mos.cms.futurecdn.net/6t8Zh249QiFmVnkQdCCtHK.jpg'>
 
-      </img>
+  <section>
+  
+  </section > 
+  
 
-      <img src='https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825__340.jpg'>
+  <section className='grid'>
+  <p className='span'>Join the Cricket Fun</p>
 
+  <div >1</div>
+  <div >1</div>
+  <div>1</div>
+  <div>1</div>
+  <div>1</div>
 
-      </img>
-      
+  <p className='span'>Furniture Bestsellers</p>
 
+  <div>1</div>
+  <div>1</div>
+  <div>1</div>
+  <div>1</div>
+  <div>1</div>
 
-      
+  <p className='span'>Furniture Bestsellers</p>
 
-    </div>
+<div>1</div>
+<div>1</div>
+<div>1</div>
+<div>1</div>
+<div>1</div>
 
-   
-       
-
-
-
-
-       {/* <div className='green'>
-        
-      </div> */}
-      {/*
-      <div className='box red'>
-        box3
-      </div>
-      <div className='box yellow'>
-        box4
-      </div> */}
-
-      
-      
-    </div>
   </section>
+
 </main>
+
+<footer className='footer'>
+
+  CopyRight@Spidy
+
+</footer>
 </>
 );
 }

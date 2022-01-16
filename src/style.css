@@ -1,80 +1,29 @@
-
-
-.container{
-    
-    
-    background:lightcoral;
-     height: 500px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-
-
-    
-   
-    
-
-
-
+*{
+    margin: 0;
+    padding: 0;
 }
+
 .box{
-   
-    
-    
-    
-
-    
-    background: aquamarine;
-    
-
-    
-    
-    
-   
-   
-    
-    
-    height: 100px;
     width: 100px;
-    margin-bottom: 10px;
-
-
-  
- 
- 
- 
+    height: 5px;
+    border-radius: 1px;
+    background-color: crimson;
+    animation: box 2s ease-in 0s 1 normal forwards;
     
-
 }
 
-@keyframes box1 {
-
+@keyframes box {
     from{
-        transform: scale(1);
+        transform: translate(10px);
+
     }
+
     to{
-        transform: scale(2);
+
+        transform: translate(100vw);
+
     }
     
 }
-
-
-.green {
-    background-color: greenyellow;
-    border-radius:5px  ;
-    }
-
-
-
-.yellow{
-    background-color: yellow;
-    
-}
-
-.red{
-    background-color: red;
-}
-
-
 
 

@@ -19,11 +19,13 @@ return (
 
 
 <main>
-  <section>
+  <section >
     <div className='container'>
-      <div className='box blue'>
-        
-      </div>
+    <div className='box'>
+      
+    </div>
+       
+
 
 
 

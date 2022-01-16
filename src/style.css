@@ -1,40 +1,80 @@
-header{
-   
-    text-align: center;
-    line-height: 40px;
-    background: gray;
-    margin: 2px;
-    position: sticky;
-    display: flex;
 
-}
 
 .container{
     
-    height: 400px;
-    width: 400px;
-    margin: auto;
-    background: indianred;
+    
+    background:lightcoral;
+     height: 500px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
 
 
-}
-
-.box1{
-    position: absolute;
-    bottom:0;
-    left: 0;
-    line-height: 100px;
-    width: 100px;
-    text-align: center;
+    
+   
     
 
-    background: lightgoldenrodyellow;
+
 
 }
-.box2{
-    line-height: 100px;
+.box{
+   
+    
+    
+    
+
+    
+    background: aquamarine;
+    
+
+    
+    
+    
+   
+   
+    
+    
+    height: 100px;
     width: 100px;
-    background: lightgray;
-    text-align: center;
+    margin-bottom: 10px;
+
+
+  
+ 
+ 
+ 
+    
 
 }
+
+@keyframes box1 {
+
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(2);
+    }
+    
+}
+
+
+.green {
+    background-color: greenyellow;
+    border-radius:5px  ;
+    }
+
+
+
+.yellow{
+    background-color: yellow;
+    
+}
+
+.red{
+    background-color: red;
+}
+
+
+
+

@@ -16,26 +16,30 @@ function App() {
 return (
 <>
 
-<header>
-  <ul>
-    <rd>home </rd>
-    <rd> about </rd>
-    <rd> search </rd>
-  </ul>
-</header>
+
 
 <main>
   <section>
     <div className='container'>
-      <div className='box1'>
-        box1
+      <div className='box blue'>
+        
       </div>
-      <div className='box2'>
-        box2
-      </div>
-      <div className='box3'>
+
+
+
+       {/* <div className='green'>
+        
+      </div> */}
+      {/*
+      <div className='box red'>
         box3
       </div>
+      <div className='box yellow'>
+        box4
+      </div> */}
+
+      
+      
     </div>
   </section>
 </main>
